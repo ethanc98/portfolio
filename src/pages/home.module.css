@@ -1,0 +1,73 @@
+.home {
+  position: relative;
+  background-color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  z-index: 5;
+}
+.home::after {
+  content: "";
+  background-color: #111;
+  height: 110vh;
+  width: 100%;
+  position: absolute;
+  transform: skewY(-5deg);
+  top: 0;
+  left: 0;
+}
+.home_shadow {
+  position: absolute;
+  /* border: solid green 1px; */
+  top: 0;
+  height: 108vh;
+  width: 100%;
+  z-index: 25;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+  z-index: 3;
+  position: relative;
+  top: -2vh;
+}
+
+.heading {
+  text-align: center;
+  width: 105%;
+  font-family: "Kaushan Script", cursive;
+  font-size: 7rem;
+  font-weight: 200;
+  color: #fff;
+  background: linear-gradient(
+    271deg,
+    #a0e9ff 30%,
+    #a162e8 50%,
+    #f093b0 70%,
+    #edca85 94%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sub_heading {
+  position: relative;
+  top: 3rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+@media (max-width: 700px) {
+  .home_shadow {
+    height: 102vh;
+  }
+  .heading {
+    font-size: 3.5rem;
+  }
+  .sub_heading {
+    font-size: 1.5rem;
+  }
+}

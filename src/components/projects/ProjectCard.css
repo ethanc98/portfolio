@@ -1,0 +1,119 @@
+.card {
+  width: 80rem;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card__left {
+  height: 21rem;
+  width: 37.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.4rem;
+}
+.title_mobile {
+  font-size: 2rem;
+  letter-spacing: 0.4rem;
+  position: absolute;
+  visibility: hidden;
+}
+.text {
+  font-size: 1.1rem;
+  letter-spacing: 0.08rem;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.link {
+  font-size: 1rem;
+  background-color: #1e2f49;
+  border-radius: 0.5rem;
+  height: 2.5rem;
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link:hover {
+  cursor: pointer;
+  background-color: #1e2f4950;
+}
+
+.image {
+  width: 39rem;
+  z-index: 6;
+  border-radius: 1rem;
+}
+.dots {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 6rem;
+}
+.dots > div {
+  height: 1rem;
+  width: 1rem;
+  border: solid 0.15rem #e57928;
+  border-radius: 1rem;
+}
+.dot1:nth-of-type(1) {
+  background-color: #e57928;
+}
+.dot2:nth-of-type(2) {
+  background-color: #e57928;
+}
+.dot3:nth-of-type(3) {
+  background-color: #e57928;
+}
+.dot4:nth-of-type(4) {
+  background-color: #e57928;
+}
+
+@media (max-width: 900px) {
+  .card {
+    height: 95vh;
+    width: 100vw;
+    flex-direction: column-reverse;
+  }
+  .card__left {
+    padding-top: 3rem;
+    width: 80%;
+  }
+  .title {
+    position: absolute;
+    visibility: hidden;
+  }
+  .title_mobile {
+    position: relative;
+    visibility: visible;
+    margin: 2rem 0 3rem 0;
+  }
+  .text {
+    font-weight: 300;
+    line-height: 2.2rem;
+  }
+  .image {
+    width: 90%;
+  }
+  .dots {
+    position: absolute;
+    visibility: hidden;
+  }
+  .separator {
+    margin-top: 4rem;
+    height: 0.15rem;
+    width: 60%;
+    background-color: #1e2f49;
+    border-radius: 1rem;
+  }
+}

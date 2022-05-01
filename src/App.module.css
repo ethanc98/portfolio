@@ -1,0 +1,13 @@
+* {
+  text-decoration: none;
+  margin: 0;
+}
+
+.sections {
+  width: 100%;
+  overflow: hidden;
+}
+.sections > * {
+  width: 100%;
+  min-height: 100vh;
+}
