@@ -8,11 +8,10 @@
 }
 .projects_shadow {
   position: absolute;
-  /* border: solid green 1px; */
   top: 0;
   height: calc(100% + 10vh);
   width: 100%;
-  z-index: 25;
+  z-index: -20;
 }
 .container {
   display: flex;

@@ -9,11 +9,10 @@
 }
 .about_shadow {
   position: absolute;
-  /* border: solid red 1px; */
   top: 8vh;
   height: 92vh;
   width: 100%;
-  z-index: 25;
+  z-index: -20;
 }
 
 .container {
