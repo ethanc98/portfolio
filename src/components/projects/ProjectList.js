@@ -9,7 +9,7 @@ function ProjectList(props) {
         description="A tool that helps you create Spotify playlists based on artist setlists."
         technologies="Node.js, HTML, CSS, JS, Spotify API, Setlist.fm API."
         image={require("./images/newfan.jpeg")}
-        site="http://newfan.herokuapp.com"
+        site="https://newfan.site"
         code="https://github.com/ethanc98/newfan"
         dotNum="dot1"
       />
@@ -19,7 +19,7 @@ function ProjectList(props) {
           account."
         technologies="Node.js, HTML, CSS, JS, MongoDB Atlas, Passport.js, Nodemailer."
         image={require("./images/mycookbook.jpeg")}
-        site="http://mycookbook123.herokuapp.com"
+        site="http://mycookbook.live"
         code="https://github.com/ethanc98/mycookbook"
         dotNum="dot2"
       />
