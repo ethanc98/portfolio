@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.da33ed1c.css",
-    "main.js": "/static/js/main.e59d9684.js",
-    "static/media/newfan.jpeg": "/static/media/newfan.75e789d513407e8372ad.jpeg",
-    "static/media/image.jpg": "/static/media/image.47d5648113a766903039.jpg",
-    "static/media/mycookbook.jpeg": "/static/media/mycookbook.076e83c03d367283e222.jpeg",
-    "static/media/notelearner.jpeg": "/static/media/notelearner.1a8500735f1e3f8cfa98.jpeg",
-    "static/media/quizpoint.jpeg": "/static/media/quizpoint.78c4e701882652d12b28.jpeg",
-    "index.html": "/index.html",
-    "main.da33ed1c.css.map": "/static/css/main.da33ed1c.css.map",
-    "main.e59d9684.js.map": "/static/js/main.e59d9684.js.map"
+    "main.css": "./static/css/main.da33ed1c.css",
+    "main.js": "./static/js/main.f18ea4f4.js",
+    "static/media/newfan.jpeg": "./static/media/newfan.75e789d513407e8372ad.jpeg",
+    "static/media/image.jpg": "./static/media/image.47d5648113a766903039.jpg",
+    "static/media/mycookbook.jpeg": "./static/media/mycookbook.076e83c03d367283e222.jpeg",
+    "static/media/notelearner.jpeg": "./static/media/notelearner.1a8500735f1e3f8cfa98.jpeg",
+    "static/media/quizpoint.jpeg": "./static/media/quizpoint.78c4e701882652d12b28.jpeg",
+    "index.html": "./index.html",
+    "main.da33ed1c.css.map": "./static/css/main.da33ed1c.css.map",
+    "main.f18ea4f4.js.map": "./static/js/main.f18ea4f4.js.map"
   },
   "entrypoints": [
     "static/css/main.da33ed1c.css",
-    "static/js/main.e59d9684.js"
+    "static/js/main.f18ea4f4.js"
   ]
 }
